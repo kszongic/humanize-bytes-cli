@@ -1,0 +1,20 @@
+{
+  "name": "humanize-bytes-cli",
+  "version": "1.0.0",
+  "description": "Convert byte counts to human-readable strings (KB, MB, GB…) and back. Zero dependencies.",
+  "main": "index.js",
+  "bin": {
+    "humanize-bytes": "index.js"
+  },
+  "scripts": {
+    "test": "node index.js 1048576"
+  },
+  "keywords": ["bytes", "humanize", "filesize", "convert", "human-readable", "cli", "kb", "mb", "gb"],
+  "author": "kszongic",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kszongic/humanize-bytes-cli"
+  },
+  "funding": "https://github.com/sponsors/kszongic"
+}
